@@ -1,0 +1,136 @@
+{
+  "version": "6.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dog",
+      "points": [
+        [
+          214.71544715447155,
+          195.47154471544715
+        ],
+        [
+          235.04065040650408,
+          214.9837398373984
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          256.99186991869925,
+          216.20325203252034
+        ],
+        [
+          234.63414634146343,
+          195.8780487804878
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          266.3414634146342,
+          214.57723577235774
+        ],
+        [
+          253.739837398374,
+          199.130081300813
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          280.9756097560976,
+          221.89430894308944
+        ],
+        [
+          266.3414634146342,
+          199.130081300813
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          296.01626016260167,
+          219.0487804878049
+        ],
+        [
+          280.1626016260163,
+          201.16260162601625
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          328.5365853658537,
+          227.1788617886179
+        ],
+        [
+          296.01626016260167,
+          200.7560975609756
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          348.04878048780495,
+          228.39837398373984
+        ],
+        [
+          327.31707317073176,
+          202.78861788617886
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "000000001911.jpg",
+  "imageData": null,
+  "imageHeight": 332,
+  "imageWidth": 640
+}

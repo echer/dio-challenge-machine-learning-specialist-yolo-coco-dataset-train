@@ -1,0 +1,172 @@
+{
+  "version": "6.1.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "dog",
+      "points": [
+        [
+          62.81437125748502,
+          56.49999999999998
+        ],
+        [
+          0.0,
+          151.90673370240646
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          222.09580838323353,
+          49.314371257485014
+        ],
+        [
+          11.916167664670645,
+          156.5
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          141.2574850299401,
+          160.09281437125748
+        ],
+        [
+          192.75449101796409,
+          238.53592814371257
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          307.7245508982036,
+          172.0688622754491
+        ],
+        [
+          150.83832335329342,
+          265.4820359281437
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          346.6467065868263,
+          196.6197604790419
+        ],
+        [
+          265.80838323353294,
+          272.66766467065867
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          395.748502994012,
+          180.45209580838323
+        ],
+        [
+          338.8622754491018,
+          272.66766467065867
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          514.9101796407185,
+          194.82335329341316
+        ],
+        [
+          355.02994011976045,
+          275.062874251497
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          474.19161676646706,
+          169.67365269461078
+        ],
+        [
+          398.14371257485027,
+          206.20059880239518
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "dog",
+      "points": [
+        [
+          337.6646706586826,
+          94.82335329341316
+        ],
+        [
+          138.8622754491018,
+          188.83532934131736
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "000000006229.jpg",
+  "imageData": null,
+  "imageHeight": 413,
+  "imageWidth": 640
+}

@@ -1,0 +1,8 @@
+path: /home/aecher/tf/projects/dio-challenge-machine-learning-specialist-yolo-coco-dataset-train/dataset/YOLODataset
+train: train/images
+val: val/images
+test:
+
+names:
+    0: cat
+    1: dog
