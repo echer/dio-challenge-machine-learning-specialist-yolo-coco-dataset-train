@@ -218,4 +218,4 @@ Agora mantive as mesmas 2000 imagens porém troquei o modelo por um maior, poré
 
 Agora voltei o modelo yolo26n e usei 5000 imagens, porém houveram algumas perdas e alguns ganhos em relação a 2000 com o mesmo modelo.
 
-![](assets/resultado-coco-2017-5000-yolo266n.jpg)
+![](assets/resultado-coco-2017-5000-yolo26n.jpg)
