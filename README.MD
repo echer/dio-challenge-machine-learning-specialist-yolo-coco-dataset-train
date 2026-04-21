@@ -3,7 +3,7 @@
 Para esta etapa foram copiadas manualmente algumas imagens de `gato` e `cachorro` obtidas do dataset coco-2017 para a pasta `dataset/images/labeled`, depois foram rotuladas utilizando o `labelme` GUI do python, apos a rotulação foram convertidas em formato `Yolo` utilizando o `labelme2yolo`.
 
 Estrutura da pasta: 
-- `labeled`: contem as imagens rotuladas manualmente (103 - )
+- `labeled`: contem as imagens rotuladas manualmente (53 gatos / 67 cachorros)
 - `negative`: contém imagens não rotuladas pois não possuem gatos nem cachorros
 - `test`: contém imagens utilizadas para testar o reconhecimento de gatos e cachorro do modelo
 
@@ -206,8 +206,16 @@ model.predict(
 
 Resultado obtido:
 
-![](./assets/resultado-coco-2017-600.jpg)
+![](assets/resultado-coco-2017-600-yolo26n.jpg)
 
-Pude perceber que quanto mais imagens temos no treino maior é o ganho na identificação de gatos e cachorros, então fiz outro teste aumentando a base de treino para 2000 imagens e a melhora foi significativamente visivel, casos em que identificou objetos incorretos melhoraram, casos em que havia mais de um objeto também e a assertividade.
+Pude perceber que quanto mais imagens temos no treino maior é o ganho na identificação de gatos e cachorros, então fiz outro teste aumentando a base de treino para 2000 imagens e a melhora foi significativamente visivel, casos em que identificou objetos incorretos melhoraram, casos em que havia mais de um objeto também e a assertividade, porém ainda há falsos positivos que poderiam ser melhorados com mais imagens ou modelo maior.
 
-![](./assets/resultado-coco-2017-2000.jpg)
+![](assets/resultado-coco-2017-2000-yolo26n.jpg)
+
+Agora mantive as mesmas 2000 imagens porém troquei o modelo por um maior, porém não houve mudanças significativas e os mesmos erros ou mais permaneceram aparentemente, porém demorou bem mais.
+
+![](assets/resultado-coco-2017-2000-yolo26s.jpg)
+
+Agora voltei o modelo yolo26n e usei 5000 imagens, porém houveram algumas perdas e alguns ganhos em relação a 2000 com o mesmo modelo.
+
+![](assets/resultado-coco-2017-5000-yolo266n.jpg)

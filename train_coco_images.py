@@ -14,7 +14,7 @@ dataset_train = fo.zoo.load_zoo_dataset(
     split="train",
     label_types=["detections"],
     classes=classes,
-    max_samples=2000
+    max_samples=5000
 )
 
 dataset_val = fo.zoo.load_zoo_dataset(
@@ -22,7 +22,7 @@ dataset_val = fo.zoo.load_zoo_dataset(
     split="validation",
     label_types=["detections"],
     classes=classes,
-    max_samples=200
+    max_samples=100
 )
 
 print("Train:", len(dataset_train))
