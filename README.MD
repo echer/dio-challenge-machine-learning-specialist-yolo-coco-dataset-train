@@ -206,5 +206,8 @@ model.predict(
 
 Resultado obtido:
 
-![](./assets/resultado-coco-2017.jpg)
+![](./assets/resultado-coco-2017-600.jpg)
 
+Pude perceber que quanto mais imagens temos no treino maior é o ganho na identificação de gatos e cachorros, então fiz outro teste aumentando a base de treino para 2000 imagens e a melhora foi significativamente visivel, casos em que identificou objetos incorretos melhoraram, casos em que havia mais de um objeto também e a assertividade.
+
+![](./assets/resultado-coco-2017-2000.jpg)
