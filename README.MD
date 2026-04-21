@@ -1,3 +1,7 @@
+# Desafio: Criação de Uma Base de Dados e Treinamento da Rede YOLO
+
+Foi inicialmente criada uma base de dados própria contendo imagens de gatos e cachorros, que foram rotuladas manualmente utilizando o LabelMe e posteriormente convertidas para o formato YOLO. Em seguida, foi realizado o treinamento de um modelo YOLO com essas duas classes, aplicando transfer learning a partir de pesos pré-treinados. Devido às limitações do dataset manual (pequena quantidade e menor diversidade), os resultados foram parcialmente satisfatórios, o que motivou a utilização do dataset COCO, já previamente rotulado, permitindo ampliar significativamente a quantidade de dados de treino e validação. Com isso, foram realizados novos treinamentos e ajustes de parâmetros, incluindo a calibração do limiar de confiança, resultando em melhor desempenho na detecção das classes “cat” e “dog”. Durante o processo, foi possível observar o impacto do volume de dados e dos hiperparâmetros na qualidade do modelo, evidenciando a importância do balanceamento entre precisão e recall para otimizar a assertividade das detecções.
+
 # Primeira abordagem criar um dataset de imagens e rotular manualmente
 
 Para esta etapa foram copiadas manualmente algumas imagens de `gato` e `cachorro` obtidas do dataset coco-2017 para a pasta `dataset/images/labeled`, depois foram rotuladas utilizando o `labelme` GUI do python, apos a rotulação foram convertidas em formato `Yolo` utilizando o `labelme2yolo`.
