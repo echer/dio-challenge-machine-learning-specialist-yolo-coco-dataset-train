@@ -216,6 +216,21 @@ Agora mantive as mesmas 2000 imagens porém troquei o modelo por um maior, poré
 
 ![](assets/resultado-coco-2017-2000-yolo26s.jpg)
 
-Agora voltei o modelo yolo26n e usei 5000 imagens, porém houveram algumas perdas e alguns ganhos em relação a 2000 com o mesmo modelo.
+Agora voltei o modelo yolo26n e usei 5000 imagens, porém houveram algumas perdas e alguns ganhos em relação a 2000 com o mesmo modelo, talvez algum outro ajuste de parametros com 2000 mil imagens possa se sair melhor.
 
 ![](assets/resultado-coco-2017-5000-yolo26n.jpg)
+
+Fiz alguns ajustes finos no parametro conf o ideal seria 0.2 com melhores valores de precisao e recall (F1 - score)
+
+| Conf | Precision | Recall | mAP50  | F1 Score   |
+| ---- | --------- | ------ | ------ | ---------- |
+| 0.20 | 0.8249    | 0.6401 | 0.6237 | **0.7209** |
+| 0.25 | 0.8114    | 0.6401 | 0.6117 | 0.7157     |
+| 0.30 | 0.8695    | 0.5917 | 0.5698 | 0.7042     |
+| 0.35 | 0.8841    | 0.5372 | 0.5218 | 0.6683     |
+| 0.40 | 0.8856    | 0.4795 | 0.4682 | 0.6221     |
+| 0.45 | 0.9335    | 0.4637 | 0.4589 | 0.6196     |
+
+Neste caso ele deixou de marcar alguns objetos que ele estava marcando como incorretos e marcou apenas os que teve mais assertividade, porém alguns casos de gatos e cachorros acabou deixando de marcar.
+
+![](./assets/resultado-coco-2017-2000-yolo26n-best-conf.jpg)

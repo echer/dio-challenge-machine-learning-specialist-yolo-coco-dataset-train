@@ -5,7 +5,7 @@ import math
 # =========================
 # 1. CAMINHO DAS IMAGENS
 # =========================
-folder = "runs/detect/predict-2"  # ajuste se for predict2, predict3...
+folder = "runs/detect/predict-3"  # ajuste se for predict2, predict3...
 
 images = [os.path.join(folder, f) for f in os.listdir(folder) if f.endswith(".jpg")]
 
@@ -42,7 +42,7 @@ for i, img in enumerate(imgs):
 # =========================
 # 6. SALVAR
 # =========================
-output_path = "assets/resultado-coco-2017-5000-yolo26n.jpg"
+output_path = "assets/resultado-coco-2017-2000-yolo26n-best-conf.jpg"
 grid_img.save(output_path)
 
 print("Imagem salva em:", output_path)
